@@ -1,0 +1,37 @@
+body{
+    margin:0
+}
+#viewport{
+    width:100vw;
+    height:100vh;
+}
+#banner{
+    height:20%
+}
+#title{
+    font-size:20vh;
+    animation:why 462ms infinite
+}
+@keyframes why{
+    0%{
+        color:#f00
+    }
+    16.66%{
+        color:#ff0
+    }
+    33.33%{
+        color:#0f0
+    }
+    50%{
+        color:#0ff
+    }
+    66.66%{
+        color:#00f
+    }
+    83.33%{
+        color:#f0f
+    }
+    100%{
+        color:#f00
+    }
+}
