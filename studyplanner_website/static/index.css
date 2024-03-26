@@ -10,7 +10,11 @@ body{
 }
 #title{
     font-size:20vh;
-    animation:why 462ms infinite
+    font-weight:bold;
+    animation:462ms infinite wh;
+}
+#ad{
+    animation:231ms infinite wh;
 }
 @keyframes why{
     0%{
