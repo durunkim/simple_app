@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/todo_list.css">
+        <title></title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>Monday</td>
+                <td>Tuesday</td>
+                <td>Wednesday</td>
+                <td>Thursday</td>
+                <td>Friday</td>
+            </tr>
+            {%for x in tasklen%}
+                <tr>
+                    {%for i in days%}
+                        <td class="table-input-cell"><input value="{{i}}" class="table-input"></td>
+                    {%endfor%}
+                </tr>
+            {%endfor%}
+        </table>
+    </body>
+</html>

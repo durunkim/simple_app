@@ -16,9 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from studyplanner_website.views import mainpage
+from studyplanner_website import views as app_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("index.html",mainpage)
+    path("index.html",app_views.mainpage),
+    path("todo_list.html",app_views.todo_list)
 ]
